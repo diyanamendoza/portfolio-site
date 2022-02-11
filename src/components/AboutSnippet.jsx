@@ -62,7 +62,7 @@ export default function AboutSnippet() {
         <div>
           <p>
             I've worn a lot of hats. Earlier on, I worked my heart out in the
-            nonprofit world for issues I care about. I've also been a trainer,
+            nonprofit world for issues I care about. I've also been a trainer, a
             communications specialist, and a designer.
           </p>
           <p>In 2019, I dove headlong into tech.</p>
