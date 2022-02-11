@@ -26,8 +26,8 @@ export default function AboutSnippet() {
           transform='matrix(5.5071 0 0 5.5071 -1052 -2439.7)'
         >
           <motion.path
-            initial={{ pathLength: 0 }}
-            animate={{ pathLength: 1 }}
+            initial={{ opacity: 0, pathLength: 0 }}
+            animate={{ opacity: [0, 0.5, 1], pathLength: 1 }}
             transition={transition}
             id='path575'
             strokeLinejoin='round'
@@ -35,16 +35,16 @@ export default function AboutSnippet() {
             d='m219.81 506.7c0.17-0.77-1.18 10.41-0.92 7.99 1.71-9.5 0.99-19.79 4.82-28.83 0.95-1.99 2.17-3.26 3.73-3.17 22.19 0.69 45.07-22.3 61.71 28.81 51.31 24.02 3.57 43.31-37.05 41.6-40.14-1.68-74.42-30.62-32.29-46.4z'
           />
           <motion.path
-            initial={{ pathLength: 0 }}
-            animate={{ pathLength: 1 }}
+            initial={{ opacity: 0, pathLength: 0 }}
+            animate={{ opacity: [0, 0.5, 1], pathLength: 1 }}
             transition={transition}
             id='path576'
             strokeWidth='1.19'
             d='m218.77 513.56c25.65 16.12 67.95 6.18 69.69-1.71 2.42 2.74 0 10.29 0 10.29-11.1 14.41-64.84 11.32-70.73 1.03-0.69-2.75 0.69-8.58 1.04-9.61z'
           />
           <motion.path
-            initial={{ pathLength: 0 }}
-            animate={{ pathLength: 1 }}
+            initial={{ opacity: 0, pathLength: 0 }}
+            animate={{ opacity: [0, 0.5, 1], pathLength: 1 }}
             transition={transition}
             id='path590'
             strokeWidth='.44704pt'
