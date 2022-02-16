@@ -11,17 +11,18 @@ export default function AboutSnippet() {
     0.3
   );
 
-  const transition = { duration: 4, repeat: Infinity, ease: 'easeInOut' };
+  const transition = { duration: 4, delay: 1.5, repeat: 1, ease: 'easeInOut' };
   const hat = (
     <svg
       xmlns='http://www.w3.org/2000/svg'
       id='svg9840'
       viewBox='0 0 639.13 441.59'
+      alt='fedora hat image'
     >
       <g id='layer1' transform='translate(-38.254 -179.35)'>
         <g
           id='g9835'
-          stroke='currentColor'
+          stroke='rgb(49, 124, 215)'
           fill='none'
           transform='matrix(5.5071 0 0 5.5071 -1052 -2439.7)'
         >

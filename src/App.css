@@ -18,12 +18,17 @@ h1 {
 h2 {
   font-size: 10vw;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
+
+/* span {
+  color: rgb(49, 124, 215);
+} */
 
 main h3 {
   font-size: 8vw;
   margin: 0;
+  color: rgb(49, 124, 215);
 }
 
 main h4 {
@@ -32,6 +37,12 @@ main h4 {
 }
 
 p {
+  font-size: 1.4em;
+  color: rgb(228, 221, 221);
+}
+
+li {
+  color: rgb(203, 223, 144);
   font-size: 1.4em;
 }
 
@@ -98,14 +109,21 @@ footer p {
   font-size: 0.7em;
 }
 
-@media only screen and (max-width: 550px) {
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media only screen and (max-width: 800px) {
   section {
     display: flex;
     flex-direction: column;
     gap: 0;
   }
 
-  p {
+  p,
+  li {
     font-size: 1em;
   }
 }

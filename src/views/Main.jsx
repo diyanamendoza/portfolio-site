@@ -8,6 +8,7 @@ import { mainVariants, projTitleVariants } from '../data/variants';
 import useCustomAnimation from '../hooks/useCustomAnimation';
 import { Link } from 'react-router-dom';
 import '../App.css';
+import TechStack from '../components/TechStack';
 
 export default function Main() {
   const projs = useCustomAnimation(
@@ -24,6 +25,7 @@ export default function Main() {
     >
       <Intro />
       <AboutSnippet />
+
       <motion.div
         className='projects'
         ref={projs.ref}
@@ -39,6 +41,7 @@ export default function Main() {
       {projects.map((project, index) => (
         <Projects key={index} project={project} />
       ))}
+      <TechStack />
     </motion.main>
   );
 }

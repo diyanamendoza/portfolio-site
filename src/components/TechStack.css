@@ -1,0 +1,27 @@
+.techstack {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.tools {
+  border-top: 1px solid white;
+  display: flex;
+  gap: 7vw;
+  margin-top: 10px;
+  padding-top: 30px;
+}
+
+.tool-list svg {
+  width: 30px;
+  margin-bottom: 15px;
+}
+
+.tool-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}

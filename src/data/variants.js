@@ -55,3 +55,15 @@ export const projVariants = {
     transition: { delay: 0.3, duration: 0.8 },
   },
 };
+
+export const toolsVariants = {
+  unseen: {
+    opacity: 0,
+    y: '1vh',
+  },
+  seen: {
+    opacity: 1,
+    y: 0,
+    transition: { delay: 0.5, duration: 0.8 },
+  },
+};
