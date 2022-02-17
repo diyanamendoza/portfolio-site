@@ -13,7 +13,7 @@ export const projects = [
       'Paw-Star is a full stack pet astrology app built with React, Node/Express, and Postgres during a week-long sprint with a four-person dev team.',
     img: '/reactverse.png',
     repo: 'https://github.com/EmilyDSarani/paw-star-fe',
-    live: 'paw-star.netlify.app/',
+    live: 'https://paw-star.netlify.app/',
   },
   {
     name: 'Fermentables',
