@@ -35,7 +35,7 @@ export default function Main() {
         <h3>Projects</h3>
         <p>
           See more of my work in{' '}
-          <Link to='https://github.com/diyanamendoza'>Github land</Link>.
+          <a href='https://github.com/diyanamendoza'>Github land</a>.
         </p>
       </motion.div>
       {projects.map((project, index) => (
