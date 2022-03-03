@@ -6,7 +6,6 @@ import { projects } from '../data/projects';
 import { motion } from 'framer-motion';
 import { mainVariants, projTitleVariants } from '../data/variants';
 import useCustomAnimation from '../hooks/useCustomAnimation';
-import { Link } from 'react-router-dom';
 import '../App.css';
 import TechStack from '../components/TechStack';
 
