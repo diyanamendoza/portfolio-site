@@ -1,8 +1,16 @@
 export const projects = [
   {
+    name: 'Noshbook',
+    summary:
+      'Noshbook is an recipe/meal planner/shopping list app built with React, Node/Express, Postgres, Elasticsearch, and AWS SES over the course of two weeks on a four-person dev team.',
+    img: '/noshbook.png',
+    repo: 'https://github.com/NoshBook',
+    live: 'https://noshbook.netlify.app/',
+  },
+  {
     name: 'Ask Xem',
     summary:
-      'Ask Xem is an educational app built with React and Supabase during another week-long team sprint.',
+      'Ask Xem is an educational app built with React and Supabase during a week-long, 4-member team sprint.',
     img: '/askxem.png',
     repo: 'https://github.com/askxem/Ask-Xem',
     live: 'https://askxem.netlify.app/',
